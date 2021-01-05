@@ -1,0 +1,1070 @@
+{
+  "ownKey": "kotlindoc",
+  "childrenPages": {"kotlindoc": {
+    "ownKey": "kotlindoc",
+    "childrenPages": {
+      "jvm": {
+        "ownKey": "jvm",
+        "childrenPages": {
+          "org": {
+            "ownKey": "org",
+            "childrenPages": {"slf4j": {
+              "ownKey": "slf4j",
+              "childrenPages": {"impl": {
+                "ownKey": "impl",
+                "childrenPages": {
+                  "clog4jloggerimpl": {
+                    "ownKey": "clog4jloggerimpl",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/jvm",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "org/slf4j/impl/clog4jloggerimpl",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/org/slf4j/impl/clog4jloggerimpl"
+                      },
+                      "description": "",
+                      "title": "Clog4jLoggerImpl",
+                      "content": "<p><init><\/p>\n<p>getName<\/p>\n<p>isTraceEnabled<\/p>\n<p>isTraceEnabled<\/p>\n<p>isDebugEnabled<\/p>\n<p>isDebugEnabled<\/p>\n<p>isInfoEnabled<\/p>\n<p>isInfoEnabled<\/p>\n<p>isWarnEnabled<\/p>\n<p>isWarnEnabled<\/p>\n<p>isErrorEnabled<\/p>\n<p>isErrorEnabled<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n"
+                    }]
+                  },
+                  "staticloggerbinder": {
+                    "ownKey": "staticloggerbinder",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/jvm",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "org/slf4j/impl/staticloggerbinder",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/org/slf4j/impl/staticloggerbinder"
+                      },
+                      "description": "",
+                      "title": "StaticLoggerBinder",
+                      "content": "<p>REQUESTED_API_VERSION<\/p>\n<p>getSingleton<\/p>\n<p>getLoggerFactory<\/p>\n<p>getLoggerFactoryClassStr<\/p>\n"
+                    }]
+                  },
+                  "clogmdcadapter": {
+                    "ownKey": "clogmdcadapter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/jvm",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "org/slf4j/impl/clogmdcadapter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/org/slf4j/impl/clogmdcadapter"
+                      },
+                      "description": "",
+                      "title": "ClogMDCAdapter",
+                      "content": "<p><init><\/p>\n<p>put<\/p>\n<p>remove<\/p>\n<p>clear<\/p>\n<p>get<\/p>\n<p>getCopyOfContextMap<\/p>\n<p>setContextMap<\/p>\n"
+                    }]
+                  },
+                  "staticmdcbinder": {
+                    "ownKey": "staticmdcbinder",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/jvm",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "org/slf4j/impl/staticmdcbinder",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/org/slf4j/impl/staticmdcbinder"
+                      },
+                      "description": "",
+                      "title": "StaticMDCBinder",
+                      "content": "<p>getSingleton<\/p>\n<p>getMDCA<\/p>\n<p>getMDCAdapterClassStr<\/p>\n"
+                    }]
+                  },
+                  "clog4jloggerfactory": {
+                    "ownKey": "clog4jloggerfactory",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/jvm",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "org/slf4j/impl/clog4jloggerfactory",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/org/slf4j/impl/clog4jloggerfactory"
+                      },
+                      "description": "",
+                      "title": "Clog4jLoggerFactory",
+                      "content": "<p>getLogger<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/jvm",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "org/slf4j/impl",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/org/slf4j/impl"
+                  },
+                  "description": "",
+                  "title": "org.slf4j.impl",
+                  "content": "<p>StaticLoggerBinder<\/p>\n<p>Clog4jLoggerFactory<\/p>\n<p>Clog4jLoggerImpl<\/p>\n<p>StaticMDCBinder<\/p>\n<p>ClogMDCAdapter<\/p>\n"
+                }]
+              }}
+            }}
+          },
+          "clog": {
+            "ownKey": "clog",
+            "childrenPages": {
+              "impl": {
+                "ownKey": "impl",
+                "childrenPages": {
+                  "inferredtagfinder": {
+                    "ownKey": "inferredtagfinder",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/jvm",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "clog/impl/inferredtagfinder",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/clog/impl/inferredtagfinder"
+                      },
+                      "description": "",
+                      "title": "InferredTagFinder",
+                      "content": "<p><init><\/p>\n<p>findCallerClassName<\/p>\n"
+                    }]
+                  },
+                  "slf4jmessageformatter": {
+                    "ownKey": "slf4jmessageformatter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/jvm",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "clog/impl/slf4jmessageformatter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/clog/impl/slf4jmessageformatter"
+                      },
+                      "description": "",
+                      "title": "Slf4jMessageFormatter",
+                      "content": "<p>delegate<\/p>\n<p><init><\/p>\n<p>format<\/p>\n<p>Slf4jMessageFormatter<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/jvm",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/impl",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/clog/impl"
+                  },
+                  "description": "",
+                  "title": "clog.impl",
+                  "content": "<p>InferredTagFinder<\/p>\n<p>Slf4jMessageFormatter<\/p>\n"
+                }]
+              },
+              "util": {
+                "ownKey": "util",
+                "childrenPages": {"mutablevariable": {
+                  "ownKey": "mutablevariable",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/jvm",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/util/mutablevariable",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/clog/util/mutablevariable"
+                    },
+                    "description": "",
+                    "title": "MutableVariable",
+                    "content": "<p><init><\/p>\n<p>get<\/p>\n<p>set<\/p>\n"
+                  }]
+                }},
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/jvm",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/util",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/clog/util"
+                  },
+                  "description": "",
+                  "title": "clog.util",
+                  "content": "<p>MutableVariable<\/p>\n"
+                }]
+              },
+              "clogplatform": {
+                "ownKey": "clogplatform",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/jvm",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/clogplatform",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/clog/clogplatform"
+                  },
+                  "description": "",
+                  "title": "ClogPlatform",
+                  "content": "<p>inferCurrentTag<\/p>\n<p>createDefaultLogger<\/p>\n<p>createDefaultTagProvider<\/p>\n<p>createDefaultFilter<\/p>\n<p>createDefaultMessageFormatter<\/p>\n"
+                }]
+              }
+            },
+            "ownPages": [{
+              "reference": {
+                "path": "kotlindoc/jvm",
+                "baseUrl": "https://copper-leaf.github.io/clog",
+                "fileName": "clog",
+                "extension": "html",
+                "usePrettyUrl": true,
+                "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm/clog"
+              },
+              "description": "",
+              "title": "clog",
+              "content": "<p>ClogPlatform<\/p>\n<p>clog.impl<\/p>\n<p>clog.util<\/p>\n"
+            }]
+          }
+        },
+        "ownPages": [{
+          "reference": {
+            "path": "kotlindoc",
+            "baseUrl": "https://copper-leaf.github.io/clog",
+            "fileName": "jvm",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://copper-leaf.github.io/clog/kotlindoc/jvm"
+          },
+          "description": "",
+          "title": "JVM",
+          "content": "<h1 id=\"clog---android\"><a href=\"#clog---android\" id=\"clog---android\" class=\"anchor\"><\/a>Clog - Android<\/h1>\n"
+        }]
+      },
+      "common": {
+        "ownKey": "common",
+        "childrenPages": {"clog": {
+          "ownKey": "clog",
+          "childrenPages": {
+            "impl": {
+              "ownKey": "impl",
+              "childrenPages": {
+                "defaultfilter": {
+                  "ownKey": "defaultfilter",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/impl/defaultfilter",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/impl/defaultfilter"
+                    },
+                    "description": "",
+                    "title": "DefaultFilter",
+                    "content": "<p>Filters messages based on tag and priority.<\/p><p>Messages will be logged if the tag passes both the blacklist and the whitelist, and has a priority greater than or\nequal to the configured minimum.<\/p><init>\n<p>Filters messages based on tag and priority.<\/p><p>Messages will be logged if the tag passes both the blacklist and the whitelist, and has a priority greater than or\nequal to the configured minimum.<\/p>\naddTagToWhitelist\n<p>Declare a tag that should be added to the whitelist. Only messages with a tag in the whitelist will be logged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\naddTagToBlacklist\n<p>Declare a tag that should be added to the blacklist. Only messages with a tag not in the blacklist will be\nlogged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\nsetMinPriority\n<p>Set the minimum priority for log messages. Only messages with a level greater than or equal to  priority  will be\nlogged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\nshouldLog\n<p>Given a  priority  and  tag , determine if a message should be logged. It should conform to the whitelist,\nblacklist, and minimum priority, but additional logic may be present as well.<\/p><p>Returns true if the message should be logged, and false if it should be dropped.<\/p>\n"
+                  }]
+                },
+                "delegatinglogger": {
+                  "ownKey": "delegatinglogger",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/impl/delegatinglogger",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/impl/delegatinglogger"
+                    },
+                    "description": "",
+                    "title": "DelegatingLogger",
+                    "content": "<p>Passes a log message to multiple other loggers<\/p>delegates\n<p><init><\/p>\n<p>Passes a log message to multiple other loggers<\/p>\nlog\n<p>Log a message at a given  priority  to a platform-specific logging target. The  tag  is already inferred and the\n message  already formatted at this point.<\/p>\nlogException\n<p>plus<\/p>\n<p>Returns a copy of this  DelegatingLogger  with <a href=\"#\">logger<\/a> appended to its list of  delegates .<\/p>\n"
+                  }]
+                },
+                "disableinproductionfilter": {
+                  "ownKey": "disableinproductionfilter",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/impl/disableinproductionfilter",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/impl/disableinproductionfilter"
+                    },
+                    "description": "",
+                    "title": "DisableInProductionFilter",
+                    "content": "<p><init><\/p>\n<p>shouldLog<\/p>\n<p>Given a  priority  and  tag , determine if a message should be logged. It should conform to the whitelist,\nblacklist, and minimum priority, but additional logic may be present as well.<\/p><p>Returns true if the message should be logged, and false if it should be dropped.<\/p>\n"
+                  }]
+                },
+                "defaulttagprovider": {
+                  "ownKey": "defaulttagprovider",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/impl/defaulttagprovider",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/impl/defaulttagprovider"
+                    },
+                    "description": "",
+                    "title": "DefaultTagProvider",
+                    "content": "<p>If a tag is not null, use that as the message tag. Otherwise, attempt to infer the tag on supported platforms.<\/p><init>\n<p>If a tag is not null, use that as the message tag. Otherwise, attempt to infer the tag on supported platforms.<\/p>\nget\n<p>Return the tag that should be logged with the current message.<\/p>\n"
+                  }]
+                },
+                "defaultmessageformatter": {
+                  "ownKey": "defaultmessageformatter",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/impl/defaultmessageformatter",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/impl/defaultmessageformatter"
+                    },
+                    "description": "",
+                    "title": "DefaultMessageFormatter",
+                    "content": "<p>Replaces <code>{}<\/code> placeholders in the message with positional args.<\/p><init>\n<p>Replaces <code>{}<\/code> placeholders in the message with positional args.<\/p>\nformat\n<p>Formats a log message with positional args and any other contextual information. Tags and logging levels are\nhandled by the  ClogLogger  and should not be included in this formatted message.<\/p>\nDefaultMessageFormatter\n<p>Replaces <code>{}<\/code> placeholders in the message with positional args.<\/p>\n"
+                  }]
+                },
+                "printlnlogger": {
+                  "ownKey": "printlnlogger",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/impl/printlnlogger",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/impl/printlnlogger"
+                    },
+                    "description": "",
+                    "title": "PrintlnLogger",
+                    "content": "<p>Logs a message to stdout using <a href=\"#\">println<\/a>. The priority is displayed with ANSI colors and the tag is prepended to the\nmessage if one is provided.<\/p><init>\n<p>Logs a message to stdout using <a href=\"#\">println<\/a>. The priority is displayed with ANSI colors and the tag is prepended to the\nmessage if one is provided.<\/p>\nlog\n<p>Log a message at a given  priority  to a platform-specific logging target. The  tag  is already inferred and the\n message  already formatted at this point.<\/p>\nPrintlnLogger\n<p>Logs a message to stdout using <a href=\"#\">println<\/a>. The priority is displayed with ANSI colors and the tag is prepended to the\nmessage if one is provided.<\/p>\n"
+                  }]
+                },
+                "ansiprintlnlogger": {
+                  "ownKey": "ansiprintlnlogger",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/impl/ansiprintlnlogger",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/impl/ansiprintlnlogger"
+                    },
+                    "description": "",
+                    "title": "AnsiPrintlnLogger",
+                    "content": "<p>Logs a message to stdout using <a href=\"#\">println<\/a>. The priority is displayed with ANSI colors and the tag is prepended to the\nmessage if one is provided.<\/p><init>\n<p>Logs a message to stdout using <a href=\"#\">println<\/a>. The priority is displayed with ANSI colors and the tag is prepended to the\nmessage if one is provided.<\/p>\nlog\n<p>Log a message at a given  priority  to a platform-specific logging target. The  tag  is already inferred and the\n message  already formatted at this point.<\/p>\nAnsiPrintlnLogger\n<p>Logs a message to stdout using <a href=\"#\">println<\/a>. The priority is displayed with ANSI colors and the tag is prepended to the\nmessage if one is provided.<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/impl",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/impl"
+                },
+                "description": "",
+                "title": "clog.impl",
+                "content": "<p>AnsiPrintlnLogger<\/p>\n<p>Logs a message to stdout using <a href=\"#\">println<\/a>. The priority is displayed with ANSI colors and the tag is prepended to the\nmessage if one is provided.<\/p>\nDefaultFilter\n<p>Filters messages based on tag and priority.<\/p><p>Messages will be logged if the tag passes both the blacklist and the whitelist, and has a priority greater than or\nequal to the configured minimum.<\/p>\nDefaultMessageFormatter\n<p>Replaces <code>{}<\/code> placeholders in the message with positional args.<\/p>\nDefaultTagProvider\n<p>If a tag is not null, use that as the message tag. Otherwise, attempt to infer the tag on supported platforms.<\/p>\nDelegatingLogger\n<p>Passes a log message to multiple other loggers<\/p>\nDisableInProductionFilter\n<p>PrintlnLogger<\/p>\n<p>Logs a message to stdout using <a href=\"#\">println<\/a>. The priority is displayed with ANSI colors and the tag is prepended to the\nmessage if one is provided.<\/p>\n"
+              }]
+            },
+            "clogthrowablelogger": {
+              "ownKey": "clogthrowablelogger",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/clogthrowablelogger",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogthrowablelogger"
+                },
+                "description": "",
+                "title": "ClogThrowableLogger",
+                "content": "<p>The entry-point for logging throwables to Clog.<\/p>v\n<p>Logs a Throwable at the  Clog.Priority.VERBOSE  level.<\/p>\nd\n<p>Logs a Throwable at the  Clog.Priority.DEBUG  level.<\/p>\ni\n<p>Logs a Throwable at the  Clog.Priority.INFO  level.<\/p>\nlog\n<p>Logs a Throwable at the  Clog.Priority.DEFAULT  level.<\/p>\nw\n<p>Logs a Throwable at the  Clog.Priority.WARNING  level.<\/p>\ne\n<p>Logs a Throwable at the  Clog.Priority.ERROR  level.<\/p>\nwtf\n<p>Logs a Throwable at the  Clog.Priority.FATAL  level.<\/p>\n"
+              }]
+            },
+            "util": {
+              "ownKey": "util",
+              "childrenPages": {"mutablevariable": {
+                "ownKey": "mutablevariable",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/common",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/util/mutablevariable",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/util/mutablevariable"
+                  },
+                  "description": "",
+                  "title": "MutableVariable",
+                  "content": "<p><init><\/p>\n<p>get<\/p>\n<p>set<\/p>\n"
+                }]
+              }},
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/util",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/util"
+                },
+                "description": "",
+                "title": "clog.util",
+                "content": "<p>MutableVariable<\/p>\n"
+              }]
+            },
+            "clogplatform": {
+              "ownKey": "clogplatform",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/clogplatform",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogplatform"
+                },
+                "description": "",
+                "title": "ClogPlatform",
+                "content": "<p>Acutal/expect declarations for Clog<\/p>inferCurrentTag\n<p>Infer a tag for a log message, on supported platforms. Typically, this inspects stackframes to determine the calling\nclass.<\/p><p>Returns null if the platform does not support a mechanism for inferring a tag, or if there is an error attempting to\ndetermine the tag.<\/p>\ncreateDefaultLogger\n<p>Create a new instance of the platform-specific  ClogLogger . This may be conditional, returning different\nimplementations based on conditions like OS and ANSI control code support.<\/p>\ncreateDefaultTagProvider\n<p>Create a new instance of the platform-specific  ClogTagProvider .<\/p>\ncreateDefaultFilter\n<p>Create a new instance of the platform-specific  ClogFilter .<\/p>\ncreateDefaultMessageFormatter\n<p>Create a new instance of the platform-specific  ClogMessageFormatter .<\/p>\n"
+              }]
+            },
+            "clogprofile": {
+              "ownKey": "clogprofile",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/clogprofile",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile"
+                },
+                "description": "",
+                "title": "ClogProfile",
+                "content": "<p>The standard entry-point to logging messages to Clog. Messages will be filtered by the  filter , and messages that\npass the filter will be formatted with  messageFormatter  and logged to  logger  with a tag provided by\n tagProvider .<\/p>logger\n<p>tagProvider<\/p>\n<p>filter<\/p>\n<p>messageFormatter<\/p>\n<p><init><\/p>\n<p>The standard entry-point to logging messages to Clog. Messages will be filtered by the  filter , and messages that\npass the filter will be formatted with  messageFormatter  and logged to  logger  with a tag provided by\n tagProvider .<\/p>\nv\n<p>Logs a message at the  Clog.Priority.VERBOSE  level with additional positional args.<\/p>\nv\n<p>Logs a Throwable at the  Clog.Priority.VERBOSE  level.<\/p>\nd\n<p>Logs a message at the  Clog.Priority.DEBUG  level with additional positional args.<\/p>\nd\n<p>Logs a Throwable at the  Clog.Priority.DEBUG  level.<\/p>\ni\n<p>Logs a message at the  Clog.Priority.INFO  level with additional positional args.<\/p>\ni\n<p>Logs a Throwable at the  Clog.Priority.INFO  level.<\/p>\nw\n<p>Logs a message at the  Clog.Priority.WARNING  level with additional positional args.<\/p>\nw\n<p>Logs a Throwable at the  Clog.Priority.WARNING  level.<\/p>\ne\n<p>Logs a message at the  Clog.Priority.ERROR  level with additional positional args.<\/p>\ne\n<p>Logs a Throwable at the  Clog.Priority.ERROR  level.<\/p>\nwtf\n<p>Logs a message at the  Clog.Priority.FATAL  level with additional positional args.<\/p>\nwtf\n<p>Logs a Throwable at the  Clog.Priority.FATAL  level.<\/p>\nlog\n<p>Logs a message at the  Clog.Priority.DEFAULT  level with additional positional args.<\/p>\nlog\n<p>Filters, formats, and logs a message. This is an internal method that should not be called directly. Use the\nmethods from  ClogProfile  or  clog.dsl  instead.<\/p>\nlog\n<p>Logs a Throwable at the  Clog.Priority.DEFAULT  level.<\/p>\nlogException\n<p>Filters and logs a Throwable. This is an internal method that should not be called directly. Use the\nmethods from  ClogProfile  or  clog.dsl  instead.<\/p>\n"
+              }]
+            },
+            "api": {
+              "ownKey": "api",
+              "childrenPages": {
+                "cloglogger": {
+                  "ownKey": "cloglogger",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/api/cloglogger",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/cloglogger"
+                    },
+                    "description": "",
+                    "title": "ClogLogger",
+                    "content": "<p>Log a message to a platform-specific logging target,<\/p>log\n<p>Log a message at a given  priority  to a platform-specific logging target. The  tag  is already inferred and the\n message  already formatted at this point.<\/p>\nlogException\n"
+                  }]
+                },
+                "clogmessageformatter": {
+                  "ownKey": "clogmessageformatter",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/api/clogmessageformatter",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter"
+                    },
+                    "description": "",
+                    "title": "ClogMessageFormatter",
+                    "content": "<p>Formats a log message with positional args and any other contextual information.<\/p>format\n<p>Formats a log message with positional args and any other contextual information. Tags and logging levels are\nhandled by the  ClogLogger  and should not be included in this formatted message.<\/p>\n"
+                  }]
+                },
+                "clogfilter": {
+                  "ownKey": "clogfilter",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/api/clogfilter",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogfilter"
+                    },
+                    "description": "",
+                    "title": "ClogFilter",
+                    "content": "<p>Determines whether a message should be logged. Only logs passing the filter will continue to be formatted with the\n ClogMessageFormatter  and sent to the  ClogLogger .<\/p>addTagToWhitelist\n<p>Declare a tag that should be added to the whitelist. Only messages with a tag in the whitelist will be logged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\naddTagToBlacklist\n<p>Declare a tag that should be added to the blacklist. Only messages with a tag not in the blacklist will be\nlogged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\nsetMinPriority\n<p>Set the minimum priority for log messages. Only messages with a level greater than or equal to  priority  will be\nlogged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\nshouldLog\n<p>Given a  priority  and  tag , determine if a message should be logged. It should conform to the whitelist,\nblacklist, and minimum priority, but additional logic may be present as well.<\/p><p>Returns true if the message should be logged, and false if it should be dropped.<\/p>\n"
+                  }]
+                },
+                "clogtagprovider": {
+                  "ownKey": "clogtagprovider",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/api/clogtagprovider",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogtagprovider"
+                    },
+                    "description": "",
+                    "title": "ClogTagProvider",
+                    "content": "<p>Provides a tag to log with the message. This should be a globally-configured tag stored in the <a href=\"#\">ClogProfile<\/a> or a tag\ninferred by the platform, if available.<\/p>get\n<p>Return the tag that should be logged with the current message.<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/api",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/api"
+                },
+                "description": "",
+                "title": "clog.api",
+                "content": "<p>ClogFilter<\/p>\n<p>Determines whether a message should be logged. Only logs passing the filter will continue to be formatted with the\n ClogMessageFormatter  and sent to the  ClogLogger .<\/p>\nClogLogger\n<p>Log a message to a platform-specific logging target,<\/p>\nClogMessageFormatter\n<p>Formats a log message with positional args and any other contextual information.<\/p>\nClogTagProvider\n<p>Provides a tag to log with the message. This should be a globally-configured tag stored in the <a href=\"#\">ClogProfile<\/a> or a tag\ninferred by the platform, if available.<\/p>\n"
+              }]
+            },
+            "dsl": {
+              "ownKey": "dsl",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/dsl",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/dsl"
+                },
+                "description": "",
+                "title": "clog.dsl",
+                "content": "<p>updateProfile<\/p>\n<p>Update the current  ClogProfile  instance, returning the new profile to set as the global profile.<\/p>\ntag\n<p>Returns a copy of the global ClogProfile instance with a specified tag.<\/p>\nmaybeTag\n<p>If  tag  is not null, return a copy of the global  ClogProfile  with that tag specified. Otherwise, directly return\nthe global  ClogProfile .<\/p>\nconfigureLoggingInProduction\n<p>Configures Clog to only log messages in debug builds. If  isDebug  is true, then logs will be filtered normally,\ndelegating to the previously-configured filter. If  isDebug  is false, then all logs will be ignored and no messages\nwill be logged.<\/p>\naddLogger\n<p>Adds an additional  ClogLogger  as a logging target.<\/p>\naddTagToWhitelist\n<p>Declare a tag that should be added to the whitelist. Only messages with a tag in the whitelist will be logged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\naddTagToBlacklist\n<p>Declare a tag that should be added to the blacklist. Only messages with a tag not in the blacklist will be\nlogged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\nsetMinPriority\n<p>Set the minimum priority for log messages. Only messages with a level greater than or equal to  priority  will be\nlogged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\nv\n<p>Log an unformatted message at the  Clog.Priority.VERBOSE  level. The global  ClogMessageFormatter  is provided to the\nlambda to allow the <code>format()<\/code> method to be called if message formatting is needed.<\/p>\nd\n<p>Log an unformatted message at the  Clog.Priority.DEBUG  level. The global  ClogMessageFormatter  is provided to the\nlambda to allow the <code>format()<\/code> method to be called if message formatting is needed.<\/p>\ni\n<p>Log an unformatted message at the  Clog.Priority.INFO  level. The global  ClogMessageFormatter  is provided to the\nlambda to allow the <code>format()<\/code> method to be called if message formatting is needed.<\/p>\nlog\n<p>Log an unformatted message at the  Clog.Priority.DEFAULT  level. The global  ClogMessageFormatter  is provided to the\nlambda to allow the <code>format()<\/code> method to be called if message formatting is needed.<\/p>\nw\n<p>Log an unformatted message at the  Clog.Priority.WARNING  level. The global  ClogMessageFormatter  is provided to the\nlambda to allow the <code>format()<\/code> method to be called if message formatting is needed.<\/p>\ne\n<p>Log an unformatted message at the  Clog.Priority.ERROR  level. The global  ClogMessageFormatter  is provided to the\nlambda to allow the <code>format()<\/code> method to be called if message formatting is needed.<\/p>\nwtf\n<p>Log an unformatted message at the  Clog.Priority.FATAL  level. The global  ClogMessageFormatter  is provided to the\nlambda to allow the <code>format()<\/code> method to be called if message formatting is needed.<\/p>\nformat\n<p>Formats a message with positional args and any other contextual information.<\/p>\nshouldLog\n<p>Given a  priority  and  tag , determine if a message should be logged. It should conform to the whitelist,\nblacklist, and minimum priority, but additional logic may be present as well.<\/p><p>Returns true if the message should be logged, and false if it should be dropped.<\/p>\n"
+              }]
+            },
+            "clogmessagelogger": {
+              "ownKey": "clogmessagelogger",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/clogmessagelogger",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogmessagelogger"
+                },
+                "description": "",
+                "title": "ClogMessageLogger",
+                "content": "<p>The entry-point for logging messages to Clog.<\/p>v\n<p>Logs a message at the  Clog.Priority.VERBOSE  level with additional positional args.<\/p>\nd\n<p>Logs a message at the  Clog.Priority.DEBUG  level with additional positional args.<\/p>\ni\n<p>Logs a message at the  Clog.Priority.INFO  level with additional positional args.<\/p>\nlog\n<p>Logs a message at the  Clog.Priority.DEFAULT  level with additional positional args.<\/p>\nw\n<p>Logs a message at the  Clog.Priority.WARNING  level with additional positional args.<\/p>\ne\n<p>Logs a message at the  Clog.Priority.ERROR  level with additional positional args.<\/p>\nwtf\n<p>Logs a message at the  Clog.Priority.FATAL  level with additional positional args.<\/p>\n"
+              }]
+            },
+            "clog": {
+              "ownKey": "clog",
+              "childrenPages": {"priority": {
+                "ownKey": "priority",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/common",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/clog/priority",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog/priority"
+                  },
+                  "description": "",
+                  "title": "Priority",
+                  "content": "<p>VERBOSE<\/p>\n<p>DEBUG<\/p>\n<p>INFO<\/p>\n<p>DEFAULT<\/p>\n<p>WARNING<\/p>\n<p>ERROR<\/p>\n<p>FATAL<\/p>\n"
+                }]
+              }},
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/common",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/clog",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog"
+                },
+                "description": "",
+                "title": "Clog",
+                "content": "<p>Holds a global instance of  ClogProfile  to process and handle logging message.<\/p>getInstance\n<p>Get the current global instance of the ClogProfile.<\/p>\nsetInstance\n<p>Sets the current global instance of the ClogProfile.<\/p>\nv\n<p>Log a message (formatted with the global  ClogMessageFormatter ) at the  Clog.Priority.VERBOSE  level.<\/p>\nv\n<p>Logs a Throwable at the  Clog.Priority.VERBOSE  level.<\/p>\nd\n<p>Log a message (formatted with the global  ClogMessageFormatter ) at the  Clog.Priority.DEBUG  level.<\/p>\nd\n<p>Logs a Throwable at the  Clog.Priority.DEBUG  level.<\/p>\ni\n<p>Log a message (formatted with the global  ClogMessageFormatter ) at the  Clog.Priority.INFO  level.<\/p>\ni\n<p>Logs a Throwable at the  Clog.Priority.INFO  level.<\/p>\nlog\n<p>Log a message (formatted with the global  ClogMessageFormatter ) at the  Clog.Priority.DEFAULT  level.<\/p>\nlog\n<p>Logs a Throwable at the  Clog.Priority.DEFAULT  level.<\/p>\nw\n<p>Log a message (formatted with the global  ClogMessageFormatter ) at the  Clog.Priority.WARNING  level.<\/p>\nw\n<p>Logs a Throwable at the  Clog.Priority.WARNING  level.<\/p>\ne\n<p>Log a message (formatted with the global  ClogMessageFormatter ) at the  Clog.Priority.ERROR  level.<\/p>\ne\n<p>Logs a Throwable at the  Clog.Priority.ERROR  level.<\/p>\nwtf\n<p>Log a message (formatted with the global  ClogMessageFormatter ) at the  Clog.Priority.FATAL  level.<\/p>\nwtf\n<p>Logs a Throwable at the  Clog.Priority.VERBOSE  level.<\/p>\nupdateProfile\n<p>Update the current  ClogProfile  instance, returning the new profile to set as the global profile.<\/p>\ntag\n<p>Returns a copy of the global ClogProfile instance with a specified tag.<\/p>\nmaybeTag\n<p>If  tag  is not null, return a copy of the global  ClogProfile  with that tag specified. Otherwise, directly return\nthe global  ClogProfile .<\/p>\nconfigureLoggingInProduction\n<p>Configures Clog to only log messages in debug builds. If  isDebug  is true, then logs will be filtered normally,\ndelegating to the previously-configured filter. If  isDebug  is false, then all logs will be ignored and no messages\nwill be logged.<\/p>\naddLogger\n<p>Adds an additional  ClogLogger  as a logging target.<\/p>\naddTagToWhitelist\n<p>Declare a tag that should be added to the whitelist. Only messages with a tag in the whitelist will be logged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\naddTagToBlacklist\n<p>Declare a tag that should be added to the blacklist. Only messages with a tag not in the blacklist will be\nlogged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\nsetMinPriority\n<p>Set the minimum priority for log messages. Only messages with a level greater than or equal to  priority  will be\nlogged.<\/p><p>Returns a copy of this  ClogFilter  with this change to be set in the  ClogProfile .<\/p>\nformat\n<p>Formats a message with positional args and any other contextual information.<\/p>\nshouldLog\n<p>Given a  priority  and  tag , determine if a message should be logged. It should conform to the whitelist,\nblacklist, and minimum priority, but additional logic may be present as well.<\/p><p>Returns true if the message should be logged, and false if it should be dropped.<\/p>\n"
+              }]
+            }
+          },
+          "ownPages": [{
+            "reference": {
+              "path": "kotlindoc/common",
+              "baseUrl": "https://copper-leaf.github.io/clog",
+              "fileName": "clog",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://copper-leaf.github.io/clog/kotlindoc/common/clog"
+            },
+            "description": "",
+            "title": "clog",
+            "content": "<p>Clog<\/p>\n<p>Holds a global instance of  ClogProfile  to process and handle logging message.<\/p>\nClogMessageLogger\n<p>The entry-point for logging messages to Clog.<\/p>\nClogPlatform\n<p>Acutal/expect declarations for Clog<\/p>\nClogProfile\n<p>The standard entry-point to logging messages to Clog. Messages will be filtered by the  filter , and messages that\npass the filter will be formatted with  messageFormatter  and logged to  logger  with a tag provided by\n tagProvider .<\/p>\nClogThrowableLogger\n<p>The entry-point for logging throwables to Clog.<\/p>\nclog.api\n<p>clog.dsl<\/p>\n<p>clog.impl<\/p>\n<p>clog.util<\/p>\n"
+          }]
+        }},
+        "ownPages": [{
+          "reference": {
+            "path": "kotlindoc",
+            "baseUrl": "https://copper-leaf.github.io/clog",
+            "fileName": "common",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://copper-leaf.github.io/clog/kotlindoc/common"
+          },
+          "description": "",
+          "title": "Common",
+          "content": "<h2 id=\"clog\"><a href=\"#clog\" id=\"clog\" class=\"anchor\"><\/a>Clog<\/h2>\n<p>Zero-config Kotlin multiplatform logging utility, strongly inspired by the <a href=\"http://www.slf4j.org/\">SLF4J<\/a> and\n<a href=\"https://github.com/JakeWharton/timber\">Timber<\/a> APIs.<\/p>\n<p><img src=\"https://img.shields.io/github/v/release/copper-leaf/clog\" alt=\"GitHub release (latest by date)\" /><\/p>\n<p>Clog is designed with the following goals in mind:<\/p>\n<ul>\n<li><strong>Zero setup required<\/strong>: just add the dependency and start logging<\/li>\n<li><strong>Support natural logging for each platform<\/strong>: use <code>actual/expect<\/code> declarations to provide natural logging targets for\neach platform, rather than printing everything to stdout<\/li>\n<li><strong>Be a central logger<\/strong>: Unlike many other Kotlin/Multiplatform loggers which simply delegate to SLF4j, Clog is designed\nto be the central logger instead of a wrapper around another logger. Clog <em>is<\/em> an SLF4J implementation, so logs from\nother libraries will be passed through to Clog and can be configured and filtered using Clog's APIs.<\/li>\n<li><strong>Support existing standards for logging<\/strong>: with the API of Timber and semantics compatible with SLF4J, Clog is a\nnatural way to transition your JVM-specific logging into the Kotlin/Multiplatform world<\/li>\n<li><strong>Customization is there if you need it<\/strong>: the Clog singleton can be easily configured with custom classes to apply\nyour own formatting, filtering, and logging targets<\/li>\n<li><strong>Immutable loggers<\/strong>: The ClogProfile and all classes implementing the logger are immutable, for multithreaded\nperformance and safety. The global Clog instance is updated only by swapping out the backing instance, and you're\nfree to bypass the global instance entirely and inject loggers instead.<\/li>\n<\/ul>\n<h3 id=\"supported-platformsfeatures\"><a href=\"#supported-platformsfeatures\" id=\"supported-platformsfeatures\" class=\"anchor\"><\/a>Supported Platforms/Features<\/h3>\n<table class=\"table\">\n<thead>\n<tr><th>Platform<\/th><th>Logging Target<\/th><th>ANSI Colors<\/th><th>Tag Inference<\/th><th>Message Formatting<\/th><th>SLF4J Integration<\/th><th>SLF4J MDC Support<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JVM<\/td><td>System.out<\/td><td>✅<\/td><td>✅<\/td><td>✅<\/td><td>✅<\/td><td>✅<\/td><\/tr>\n<tr><td>Android<\/td><td>android.util.Log<\/td><td>❌<\/td><td>✅<\/td><td>✅<\/td><td>✅<\/td><td>❌<\/td><\/tr>\n<tr><td>JS<\/td><td>console.log<\/td><td>❌<\/td><td>❌<\/td><td>✅<\/td><td>❌<\/td><td>❌<\/td><\/tr>\n<tr><td>iOS<\/td><td>NSLog<\/td><td>❌<\/td><td>❌<\/td><td>✅<\/td><td>❌<\/td><td>❌<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"installation\"><a href=\"#installation\" id=\"installation\" class=\"anchor\"><\/a>Installation<\/h3>\n<pre><code class=\"language-kotlin\">repositories {\n    jcenter()\n    maven(url = &quot;https://dl.bintray.com/copper-leaf/oss&quot;)\n}\n\n// for plain JVM or Android projects\ndependencies {\n    implementation(&quot;io.copper-leaf:clog:3.6.0&quot;)\n}\n\n// for multiplatform projects\nkotlin {\n    sourceSets {\n        val commonMain by getting {\n            dependencies {\n                implementation(&quot;clog:core:3.6.0&quot;)\n            }\n        }\n    }\n}\n<\/code><\/pre>\n<h2 id=\"usage\"><a href=\"#usage\" id=\"usage\" class=\"anchor\"><\/a>Usage<\/h2>\n<p>Clog's logging levels generally follow the SLF4J logging levels, and the API follows a similar API as\n<a href=\"https://developer.android.com/reference/android/util/Log\">android.util.log<\/a> or\n<a href=\"https://github.com/JakeWharton/timber\">Timber<\/a>.<\/p>\n<table class=\"table\">\n<thead>\n<tr><th>Clog Level<\/th><th>Clog Method<\/th><th>SLF4J Level<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>Verbose<\/td><td><code>Clog.v()<\/code><\/td><td><code>logger.trace()<\/code><\/td><\/tr>\n<tr><td>Debug<\/td><td><code>Clog.d()<\/code><\/td><td><code>logger.debug()<\/code><\/td><\/tr>\n<tr><td>Info<\/td><td><code>Clog.i()<\/code><\/td><td><code>logger.info()<\/code><\/td><\/tr>\n<tr><td>Default<\/td><td><code>Clog.log()<\/code><\/td><td>N/A<\/td><\/tr>\n<tr><td>Warning<\/td><td><code>Clog.w()<\/code><\/td><td><code>logger.warn()<\/code><\/td><\/tr>\n<tr><td>Error<\/td><td><code>Clog.e()<\/code><\/td><td><code>logger.error()<\/code><\/td><\/tr>\n<tr><td>Fatal<\/td><td><code>Clog.wtf()<\/code><\/td><td>N/A<\/td><\/tr>\n<\/tbody>\n<\/table>\n<p>In general, a log consists of a <em>message<\/em> (which may be formatted with params in SLF4J-style), a <em>tag<\/em>, and a\n<em>log level<\/em>. Below is a description of the API<\/p>\n<h3 id=\"normal-log-messages\"><a href=\"#normal-log-messages\" id=\"normal-log-messages\" class=\"anchor\"><\/a>Normal log messages<\/h3>\n<p>Tag will be inferred on supported platforms, based on the calling class<\/p>\n<pre><code class=\"language-kotlin\">Clog.v(&quot;message&quot;)\nClog.d(&quot;message&quot;)\nClog.i(&quot;message&quot;)\nClog.log(&quot;message&quot;)\nClog.w(&quot;message&quot;)\nClog.e(&quot;message&quot;)\nClog.wtf(&quot;message&quot;)\n<\/code><\/pre>\n<h3 id=\"logs-with-custom-tags\"><a href=\"#logs-with-custom-tags\" id=\"logs-with-custom-tags\" class=\"anchor\"><\/a>Logs with custom tags<\/h3>\n<pre><code class=\"language-kotlin\">Clog.tag(&quot;tag&quot;).v(&quot;message&quot;)\nClog.tag(&quot;tag&quot;).d(&quot;message&quot;)\nClog.tag(&quot;tag&quot;).i(&quot;message&quot;)\nClog.tag(&quot;tag&quot;).w(&quot;message&quot;)\nClog.tag(&quot;tag&quot;).e(&quot;message&quot;)\nClog.tag(&quot;tag&quot;).wtf(&quot;message&quot;)\n<\/code><\/pre>\n<h3 id=\"log-exceptions\"><a href=\"#log-exceptions\" id=\"log-exceptions\" class=\"anchor\"><\/a>Log exceptions<\/h3>\n<pre><code class=\"language-kotlin\">val e = RuntimeException()\nClog.v(e)\nClog.d(e)\nClog.i(e)\nClog.log(e)\nClog.w(e)\nClog.e(e)\nClog.wtf(e)\n<\/code><\/pre>\n<h3 id=\"message-formatting\"><a href=\"#message-formatting\" id=\"message-formatting\" class=\"anchor\"><\/a>Message Formatting<\/h3>\n<p>SLF4j-style formatting is supported, replacing <code>{}<\/code> with params passed to the logging call. This is supported on all\nplatforms and all log levels.<\/p>\n<pre><code class=\"language-kotlin\">val foo = &quot;bar&quot;\nClog.i(&quot;message {}&quot;, foo) // logs 'message bar'\n<\/code><\/pre>\n<h3 id=\"priority-filter\"><a href=\"#priority-filter\" id=\"priority-filter\" class=\"anchor\"><\/a>Priority Filter<\/h3>\n<p>Messages and exceptions can be filtered out by priority.<\/p>\n<pre><code class=\"language-kotlin\">Clog.setMinPriority(Clog.Priority.ERROR)\n<\/code><\/pre>\n<h3 id=\"tag-whitelistingblacklisting\"><a href=\"#tag-whitelistingblacklisting\" id=\"tag-whitelistingblacklisting\" class=\"anchor\"><\/a>Tag whitelisting/blacklisting<\/h3>\n<p>Messages can be filtered out by tags.<\/p>\n<pre><code class=\"language-kotlin\">Clog.addTagToWhitelist(&quot;tag1&quot;)\nClog.addTagToBlacklist(&quot;tag2&quot;)\n<\/code><\/pre>\n<h2 id=\"lambda-dsl\"><a href=\"#lambda-dsl\" id=\"lambda-dsl\" class=\"anchor\"><\/a>Lambda DSL<\/h2>\n<p>Using the Clog DSL, simple strings can be logged lazily. The lambda is only evaluated if the logging level and tag is\nenabled. By default, messages logged with the lambda DSL are not formatted, but it can be re-enabled by using <code>format()<\/code>\ninside the lambda.<\/p>\n<h3 id=\"normal-log-messages-1\"><a href=\"#normal-log-messages-1\" id=\"normal-log-messages-1\" class=\"anchor\"><\/a>Normal log messages<\/h3>\n<pre><code class=\"language-kotlin\">import clog.dsl.*\n\nv   { &quot;message&quot; }\nd   { &quot;message&quot; }\ni   { &quot;message&quot; }\nw   { &quot;message&quot; }\ne   { &quot;message&quot; }\nwtf { &quot;message&quot; }\n<\/code><\/pre>\n<h3 id=\"logs-with-custom-tags-1\"><a href=\"#logs-with-custom-tags-1\" id=\"logs-with-custom-tags-1\" class=\"anchor\"><\/a>Logs with custom tags<\/h3>\n<pre><code class=\"language-kotlin\">import clog.dsl.*\n\nv(&quot;tag&quot;)   { &quot;message&quot; }\nd(&quot;tag&quot;)   { &quot;message&quot; }\ni(&quot;tag&quot;)   { &quot;message&quot; }\nw(&quot;tag&quot;)   { &quot;message&quot; }\ne(&quot;tag&quot;)   { &quot;message&quot; }\nwtf(&quot;tag&quot;) { &quot;message&quot; }\n<\/code><\/pre>\n<h3 id=\"message-formatting-1\"><a href=\"#message-formatting-1\" id=\"message-formatting-1\" class=\"anchor\"><\/a>Message formatting<\/h3>\n<pre><code class=\"language-kotlin\">import clog.dsl.*\n\nval foo = &quot;bar&quot; \nv   { format(&quot;message {}&quot;, foo) } // logs 'message bar'\nd   { format(&quot;message {}&quot;, foo) } // logs 'message bar'\ni   { format(&quot;message {}&quot;, foo) } // logs 'message bar'\nw   { format(&quot;message {}&quot;, foo) } // logs 'message bar'\ne   { format(&quot;message {}&quot;, foo) } // logs 'message bar'\nwtf { format(&quot;message {}&quot;, foo) } // logs 'message bar'\n<\/code><\/pre>\n<h2 id=\"slf4j\"><a href=\"#slf4j\" id=\"slf4j\" class=\"anchor\"><\/a>SLF4J<\/h2>\n<p>On plain JVM and Android platforms, Clog is set up as an SLF4J binding; that is, SLF4J will pass log messages through to\nClog. Other libraries and frameworks logging to SLF4J will be formatted as normal Clog logs for uniform log output, and\nso Clog can be used as a simple SLF4J binding when you don't want to configure Logback. Additionally, SLF Mapped\nDiagnostic Context (MDC) is supported, and context data can be added to log messages with the standard format of\n<code>%X{mdcKey}<\/code>.<\/p>\n<pre><code class=\"language-kotlin\">val slf4j: Logger = LoggerFactory.getLogger(JvmClogSlf4jTest::class.java)\n\nMDC.put(&quot;akey&quot;, &quot;avalue&quot;)\nslf4j.trace(&quot;message %X{akey}&quot;) // logs 'message avalue' to the Clog logger\n<\/code><\/pre>\n<h2 id=\"more-customization\"><a href=\"#more-customization\" id=\"more-customization\" class=\"anchor\"><\/a>More Customization<\/h2>\n<p>Clog is designed to work out-of-the-box with absolutely zero config required to start logging with it. However, you can\ncustomize all components of Clog to your needs. Clog is comprised of several components wrapped in a <code>ClogProfile<\/code>,\nwhich is the global instance of <code>Clog.getInstance()<\/code>. You can customize your Clog by creating a new Profile with your\ncustom components:<\/p>\n<pre><code class=\"language-kotlin\">val newProfile = ClogProfile(...)\nClog.setProfile(newProfile)\n<\/code><\/pre>\n<p>You can also use the <code>Clog.updateProfile<\/code> helper to create a profile based on the current global instance:<\/p>\n<pre><code class=\"language-kotlin\">Clog.updateProfile { it.copy(logger = newLogger) }\n<\/code><\/pre>\n<p>The table below describes the classes that can be customized in the <code>ClogProfile<\/code>, along with their default\nimplementation for each supported platform:<\/p>\n<table class=\"table\">\n<thead>\n<tr><th>Interface<\/th><th>Description<\/th><th>JVM<\/th><th>Android<\/th><th>JS<\/th><th>iOS<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td><code>ClogTagProvider<\/code><\/td><td>Infers a tag if one is not provided to the logging call<\/td><td><code>DefaultTagProvider()<\/code><\/td><td><code>DefaultTagProvider()<\/code><\/td><td><code>DefaultTagProvider()<\/code><\/td><td><code>DefaultTagProvider()<\/code><\/td><\/tr>\n<tr><td><code>ClogMessageFormatter<\/code><\/td><td>Formats a message string to pass to the <code>ClogLogger<\/code><\/td><td><code>Slf4jMessageFormatter(DefaultMessageFormatter())<\/code><\/td><td><code>DefaultMessageFormatter()<\/code><\/td><td><code>DefaultMessageFormatter()<\/code><\/td><td><code>DefaultMessageFormatter()<\/code><\/td><\/tr>\n<tr><td><code>ClogFilter<\/code><\/td><td>Determines whether to format and log a message<\/td><td><code>DefaultFilter()<\/code><\/td><td><code>DefaultFilter()<\/code><\/td><td><code>DefaultFilter()<\/code><\/td><td><code>DefaultFilter()<\/code><\/td><\/tr>\n<tr><td><code>ClogLogger<\/code><\/td><td>Prints a formatted log to a lower-level platform-specific logger or console<\/td><td><code>DefaultLogger()<\/code><\/td><td><code>AndroidLogger()<\/code><\/td><td><code>JsConsoleLogger()<\/code><\/td><td><code>NsLogger()<\/code><\/td><\/tr>\n<\/tbody>\n<\/table>\n<h2 id=\"recipes\"><a href=\"#recipes\" id=\"recipes\" class=\"anchor\"><\/a>Recipes<\/h2>\n<h3 id=\"turn-off-logging-in-production\"><a href=\"#turn-off-logging-in-production\" id=\"turn-off-logging-in-production\" class=\"anchor\"><\/a>Turn off logging in production<\/h3>\n<pre><code class=\"language-kotlin\">val isDebug = ...\nClog.configureLoggingInProduction(isDebug)\n<\/code><\/pre>\n<h3 id=\"use-a-custom-logger\"><a href=\"#use-a-custom-logger\" id=\"use-a-custom-logger\" class=\"anchor\"><\/a>Use a custom logger<\/h3>\n<p>Replaces the current logging target with a custom one.<\/p>\n<pre><code class=\"language-kotlin\">val customLogger = object : ClogLogger {\n    override fun log(priority: Clog.Priority, tag: String?, message: String) {\n        ...\n    }\n    override fun logException(priority: Clog.Priority, tag: String?, throwable: Throwable) {\n        ...\n    }\n}\nClog.updateProfile { it.copy(logger = customLogger) }\n<\/code><\/pre>\n<h3 id=\"using-multiple-logging-targets\"><a href=\"#using-multiple-logging-targets\" id=\"using-multiple-logging-targets\" class=\"anchor\"><\/a>Using multiple logging targets<\/h3>\n<p>Add an additional logger to the current instance. Calling <code>addLogger<\/code> multiple times will continue adding loggers, and\nmessages will be delegated to all loggers.<\/p>\n<pre><code class=\"language-kotlin\">val customLogger = object : ClogLogger {\n    override fun log(priority: Clog.Priority, tag: String?, message: String) {\n        ...\n    }\n    override fun logException(priority: Clog.Priority, tag: String?, throwable: Throwable) {\n        ...\n    }\n}\nClog.addLogger(customLogger)\n<\/code><\/pre>\n<h3 id=\"using-clog-with-dependency-injection\"><a href=\"#using-clog-with-dependency-injection\" id=\"using-clog-with-dependency-injection\" class=\"anchor\"><\/a>Using Clog with dependency injection<\/h3>\n<pre><code class=\"language-kotlin\">// Given some classes that depend on a logger\nclass Controller(val logger: ClogProfile) \n\n// just declare a ClogProfile singleton with any configurations you need \nval module = module { \n  single { ClogProfile() } \n  single { Controller(get()) } \n} \n<\/code><\/pre>\n"
+        }]
+      },
+      "android": {
+        "ownKey": "android",
+        "childrenPages": {
+          "org": {
+            "ownKey": "org",
+            "childrenPages": {"slf4j": {
+              "ownKey": "slf4j",
+              "childrenPages": {"impl": {
+                "ownKey": "impl",
+                "childrenPages": {
+                  "clog4jloggerimpl": {
+                    "ownKey": "clog4jloggerimpl",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/android",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "org/slf4j/impl/clog4jloggerimpl",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/android/org/slf4j/impl/clog4jloggerimpl"
+                      },
+                      "description": "",
+                      "title": "Clog4jLoggerImpl",
+                      "content": "<p><init><\/p>\n<p>getName<\/p>\n<p>isTraceEnabled<\/p>\n<p>isTraceEnabled<\/p>\n<p>isDebugEnabled<\/p>\n<p>isDebugEnabled<\/p>\n<p>isInfoEnabled<\/p>\n<p>isInfoEnabled<\/p>\n<p>isWarnEnabled<\/p>\n<p>isWarnEnabled<\/p>\n<p>isErrorEnabled<\/p>\n<p>isErrorEnabled<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>trace<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>debug<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>info<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>warn<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n<p>error<\/p>\n"
+                    }]
+                  },
+                  "staticloggerbinder": {
+                    "ownKey": "staticloggerbinder",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/android",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "org/slf4j/impl/staticloggerbinder",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/android/org/slf4j/impl/staticloggerbinder"
+                      },
+                      "description": "",
+                      "title": "StaticLoggerBinder",
+                      "content": "<p>REQUESTED_API_VERSION<\/p>\n<p>getSingleton<\/p>\n<p>getLoggerFactory<\/p>\n<p>getLoggerFactoryClassStr<\/p>\n"
+                    }]
+                  },
+                  "clog4jloggerfactory": {
+                    "ownKey": "clog4jloggerfactory",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/android",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "org/slf4j/impl/clog4jloggerfactory",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/android/org/slf4j/impl/clog4jloggerfactory"
+                      },
+                      "description": "",
+                      "title": "Clog4jLoggerFactory",
+                      "content": "<p>getLogger<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/android",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "org/slf4j/impl",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/android/org/slf4j/impl"
+                  },
+                  "description": "",
+                  "title": "org.slf4j.impl",
+                  "content": "<p>StaticLoggerBinder<\/p>\n<p>Clog4jLoggerFactory<\/p>\n<p>Clog4jLoggerImpl<\/p>\n"
+                }]
+              }}
+            }}
+          },
+          "clog": {
+            "ownKey": "clog",
+            "childrenPages": {
+              "impl": {
+                "ownKey": "impl",
+                "childrenPages": {"androidlogger": {
+                  "ownKey": "androidlogger",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/android",
+                      "baseUrl": "https://copper-leaf.github.io/clog",
+                      "fileName": "clog/impl/androidlogger",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://copper-leaf.github.io/clog/kotlindoc/android/clog/impl/androidlogger"
+                    },
+                    "description": "",
+                    "title": "AndroidLogger",
+                    "content": "<p><init><\/p>\n<p>log<\/p>\n"
+                  }]
+                }},
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/android",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/impl",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/android/clog/impl"
+                  },
+                  "description": "",
+                  "title": "clog.impl",
+                  "content": "<p>AndroidLogger<\/p>\n"
+                }]
+              },
+              "util": {
+                "ownKey": "util",
+                "childrenPages": {
+                  "mutablevariable": {
+                    "ownKey": "mutablevariable",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/android",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "clog/util/mutablevariable",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/android/clog/util/mutablevariable"
+                      },
+                      "description": "",
+                      "title": "MutableVariable",
+                      "content": "<p><init><\/p>\n<p>get<\/p>\n<p>set<\/p>\n"
+                    }]
+                  },
+                  "inferredtagfinder": {
+                    "ownKey": "inferredtagfinder",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/android",
+                        "baseUrl": "https://copper-leaf.github.io/clog",
+                        "fileName": "clog/util/inferredtagfinder",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://copper-leaf.github.io/clog/kotlindoc/android/clog/util/inferredtagfinder"
+                      },
+                      "description": "",
+                      "title": "InferredTagFinder",
+                      "content": "<p><init><\/p>\n<p>findCallerClassName<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/android",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/util",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/android/clog/util"
+                  },
+                  "description": "",
+                  "title": "clog.util",
+                  "content": "<p>InferredTagFinder<\/p>\n<p>MutableVariable<\/p>\n"
+                }]
+              },
+              "clogplatform": {
+                "ownKey": "clogplatform",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/android",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/clogplatform",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/android/clog/clogplatform"
+                  },
+                  "description": "",
+                  "title": "ClogPlatform",
+                  "content": "<p>inferCurrentTag<\/p>\n<p>createDefaultLogger<\/p>\n<p>createDefaultTagProvider<\/p>\n<p>createDefaultFilter<\/p>\n<p>createDefaultMessageFormatter<\/p>\n"
+                }]
+              }
+            },
+            "ownPages": [{
+              "reference": {
+                "path": "kotlindoc/android",
+                "baseUrl": "https://copper-leaf.github.io/clog",
+                "fileName": "clog",
+                "extension": "html",
+                "usePrettyUrl": true,
+                "link": "https://copper-leaf.github.io/clog/kotlindoc/android/clog"
+              },
+              "description": "",
+              "title": "clog",
+              "content": "<p>ClogPlatform<\/p>\n<p>clog.impl<\/p>\n<p>clog.util<\/p>\n"
+            }]
+          }
+        },
+        "ownPages": [{
+          "reference": {
+            "path": "kotlindoc",
+            "baseUrl": "https://copper-leaf.github.io/clog",
+            "fileName": "android",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://copper-leaf.github.io/clog/kotlindoc/android"
+          },
+          "description": "",
+          "title": "Android",
+          "content": "<h1 id=\"clog---android\"><a href=\"#clog---android\" id=\"clog---android\" class=\"anchor\"><\/a>Clog - Android<\/h1>\n"
+        }]
+      },
+      "js": {
+        "ownKey": "js",
+        "childrenPages": {"clog": {
+          "ownKey": "clog",
+          "childrenPages": {
+            "impl": {
+              "ownKey": "impl",
+              "childrenPages": {"jsconsolelogger": {
+                "ownKey": "jsconsolelogger",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/js",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/impl/jsconsolelogger",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/js/clog/impl/jsconsolelogger"
+                  },
+                  "description": "",
+                  "title": "JsConsoleLogger",
+                  "content": "<p><init><\/p>\n<p>log<\/p>\n"
+                }]
+              }},
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/js",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/impl",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/js/clog/impl"
+                },
+                "description": "",
+                "title": "clog.impl",
+                "content": "<p>JsConsoleLogger<\/p>\n"
+              }]
+            },
+            "util": {
+              "ownKey": "util",
+              "childrenPages": {"mutablevariable": {
+                "ownKey": "mutablevariable",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/js",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/util/mutablevariable",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/js/clog/util/mutablevariable"
+                  },
+                  "description": "",
+                  "title": "MutableVariable",
+                  "content": "<p><init><\/p>\n<p>get<\/p>\n<p>set<\/p>\n"
+                }]
+              }},
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/js",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/util",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/js/clog/util"
+                },
+                "description": "",
+                "title": "clog.util",
+                "content": "<p>MutableVariable<\/p>\n"
+              }]
+            },
+            "clogplatform": {
+              "ownKey": "clogplatform",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/js",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/clogplatform",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/js/clog/clogplatform"
+                },
+                "description": "",
+                "title": "ClogPlatform",
+                "content": "<p>inferCurrentTag<\/p>\n<p>createDefaultLogger<\/p>\n<p>createDefaultTagProvider<\/p>\n<p>createDefaultFilter<\/p>\n<p>createDefaultMessageFormatter<\/p>\n"
+              }]
+            }
+          },
+          "ownPages": [{
+            "reference": {
+              "path": "kotlindoc/js",
+              "baseUrl": "https://copper-leaf.github.io/clog",
+              "fileName": "clog",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://copper-leaf.github.io/clog/kotlindoc/js/clog"
+            },
+            "description": "",
+            "title": "clog",
+            "content": "<p>ClogPlatform<\/p>\n<p>clog.impl<\/p>\n<p>clog.util<\/p>\n"
+          }]
+        }},
+        "ownPages": [{
+          "reference": {
+            "path": "kotlindoc",
+            "baseUrl": "https://copper-leaf.github.io/clog",
+            "fileName": "js",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://copper-leaf.github.io/clog/kotlindoc/js"
+          },
+          "description": "",
+          "title": "JS",
+          "content": "<h1 id=\"clog---android\"><a href=\"#clog---android\" id=\"clog---android\" class=\"anchor\"><\/a>Clog - Android<\/h1>\n"
+        }]
+      },
+      "ios": {
+        "ownKey": "ios",
+        "childrenPages": {"clog": {
+          "ownKey": "clog",
+          "childrenPages": {
+            "impl": {
+              "ownKey": "impl",
+              "childrenPages": {"nslogger": {
+                "ownKey": "nslogger",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/ios",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/impl/nslogger",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/ios/clog/impl/nslogger"
+                  },
+                  "description": "",
+                  "title": "NsLogger",
+                  "content": "<p><init><\/p>\n<p>log<\/p>\n"
+                }]
+              }},
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/ios",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/impl",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/ios/clog/impl"
+                },
+                "description": "",
+                "title": "clog.impl",
+                "content": "<p>NsLogger<\/p>\n"
+              }]
+            },
+            "util": {
+              "ownKey": "util",
+              "childrenPages": {"mutablevariable": {
+                "ownKey": "mutablevariable",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc/ios",
+                    "baseUrl": "https://copper-leaf.github.io/clog",
+                    "fileName": "clog/util/mutablevariable",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://copper-leaf.github.io/clog/kotlindoc/ios/clog/util/mutablevariable"
+                  },
+                  "description": "",
+                  "title": "MutableVariable",
+                  "content": "<p><init><\/p>\n<p>get<\/p>\n<p>set<\/p>\n"
+                }]
+              }},
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/ios",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/util",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/ios/clog/util"
+                },
+                "description": "",
+                "title": "clog.util",
+                "content": "<p>MutableVariable<\/p>\n"
+              }]
+            },
+            "clogplatform": {
+              "ownKey": "clogplatform",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc/ios",
+                  "baseUrl": "https://copper-leaf.github.io/clog",
+                  "fileName": "clog/clogplatform",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://copper-leaf.github.io/clog/kotlindoc/ios/clog/clogplatform"
+                },
+                "description": "",
+                "title": "ClogPlatform",
+                "content": "<p>inferCurrentTag<\/p>\n<p>createDefaultLogger<\/p>\n<p>createDefaultTagProvider<\/p>\n<p>createDefaultFilter<\/p>\n<p>createDefaultMessageFormatter<\/p>\n"
+              }]
+            }
+          },
+          "ownPages": [{
+            "reference": {
+              "path": "kotlindoc/ios",
+              "baseUrl": "https://copper-leaf.github.io/clog",
+              "fileName": "clog",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://copper-leaf.github.io/clog/kotlindoc/ios/clog"
+            },
+            "description": "",
+            "title": "clog",
+            "content": "<p>ClogPlatform<\/p>\n<p>clog.impl<\/p>\n<p>clog.util<\/p>\n"
+          }]
+        }},
+        "ownPages": [{
+          "reference": {
+            "path": "kotlindoc",
+            "baseUrl": "https://copper-leaf.github.io/clog",
+            "fileName": "ios",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://copper-leaf.github.io/clog/kotlindoc/ios"
+          },
+          "description": "",
+          "title": "iOS",
+          "content": "<h1 id=\"clog---android\"><a href=\"#clog---android\" id=\"clog---android\" class=\"anchor\"><\/a>Clog - Android<\/h1>\n"
+        }]
+      }
+    }
+  }}
+}

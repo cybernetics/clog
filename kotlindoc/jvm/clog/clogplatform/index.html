@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.21.0"/>
+<link rel="icon" href="https://copper-leaf.github.io/clog/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>ClogPlatform</title>
+
+
+<meta name="description" content="Zero-config Kotlin multiplatform logging utility">
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/BsDoc/db306931/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/BsDoc/db306931/assets/css/bsdoc.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/BsDoc/db306931/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/PrismJS/prism-themes/master/themes/prism-duotone-light.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/assets/css/orchidSourceDoc.css"  />
+<!-- end:inject styles -->
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.21.0","baseUrl":"https://copper-leaf.github.io/clog","environment":"prod","version":"3.6.0"};
+</script>
+
+
+    <!-- start:inject meta-components [head] -->
+    
+
+        
+            
+        
+
+        
+            
+        
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+    <!-- start:inject meta-components [head] -->
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+
+
+
+
+
+<header class="navbar navbar-fixed-top bs-docs-nav">
+    <div class="container">
+        <div class="navbar-header" role="banner">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://copper-leaf.github.io/clog">Clog</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    
+                        <li><a href="https://copper-leaf.github.io/clog">Home</a></li>
+                    
+                
+                    
+                        <li><a href="https://copper-leaf.github.io/clog/releases">Releases</a></li>
+                    
+                
+                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Supported Platforms<span class="caret"></span></a>
+                            <ul class="dropdown-menu scrollable-menu">
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/android">Android</a></li>
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/common">Common</a></li>
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/js">JS</a></li>
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/jvm">JVM</a></li>
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/ios">iOS</a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div id="top"></div>
+
+
+    <div class="bs-docs-masthead" id="jumbotron">
+        <div class="container">
+            <h1 class="home-title">ClogPlatform</h1>
+        </div>
+    </div>
+
+
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-9" role="main">
+        <nav aria-label="breadcrumb">
+    <ul class="breadcrumb">
+    
+    
+        <li class="breadcrumb-item"><a href="https://copper-leaf.github.io/clog/kotlindoc/jvm">JVM</a></li>
+    
+    
+    
+        <li class="breadcrumb-item active" aria-current="page">ClogPlatform</li>
+    
+    
+    </ul>
+</nav>
+        
+
+        
+        
+            
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="ClogPlatform">
+
+
+  
+
+  
+    <div class="sourcedoc-section section-element" id="2140f233847b1e616e4a722ae400aa649baa4909">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>actual object <a href="https://copper-leaf.github.io/clog/kotlindoc/jvm/clog/clogplatform">ClogPlatform</a>: Any</code>
+      </p>
+
+      
+        
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="66104808a5353446d8b142e52e5166839fedd5dd">
+      
+      <h3 class="sourcedoc-section element-name">inferCurrentTag</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>actual fun inferCurrentTag(): String?</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="caa03adaa1a193edc1db26c8738a40a967c26c72">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ce29911ab38228bb2a41fe50f4edd1d765e1abcd">
+        <td class="sourcedoc-section section-signature">
+          <code>String?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="b22549fef635cb5bef0c2fad6cdad83501e308b6">
+      
+      <h3 class="sourcedoc-section element-name">createDefaultLogger</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>actual fun createDefaultLogger(): <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/cloglogger">ClogLogger</a></code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a78458f0584475af17e70ef0857eaedbcaf481a0">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b3fc7351ca384ad9f85f1c104fb00b0df103679c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/cloglogger">ClogLogger</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="5707bef59c0e435ecc4dfa7d56235980bb58a0a9">
+      
+      <h3 class="sourcedoc-section element-name">createDefaultTagProvider</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>actual fun createDefaultTagProvider(): <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogtagprovider">ClogTagProvider</a></code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="eb345ace158d642e44ba4268c76b98202557045e">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="2232fe7c0a5cff9c77a3bb4416d8312b06908504">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogtagprovider">ClogTagProvider</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="a955dbd262567390ed86c7409b554dcb0ae040b6">
+      
+      <h3 class="sourcedoc-section element-name">createDefaultFilter</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>actual fun createDefaultFilter(): <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogfilter">ClogFilter</a></code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a5348ddd8dccbc58cb484c50313813109ea3b542">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="a0999984d52ca659ad36ce985b76a185b4e305e7">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogfilter">ClogFilter</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="ad1dfe1e2cd3545f6f5b61dac5ff867872788f75">
+      
+      <h3 class="sourcedoc-section element-name">createDefaultMessageFormatter</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>actual fun createDefaultMessageFormatter(): <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a></code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="8a67bc697a08e7ad12adbd97e194ecb4cfc41b20">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b3f95e35a78a9889c9095e380b1889c1682154f8">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+        
+        </div>
+
+        <!-- Page navigation
+        =========================================== -->
+        <div class="col-md-3" role="complementary">
+        <div class="bs-docs-sidebar hidden-print" id="bs-docs-sidebar">
+    <section id="search" >
+        <form data-orchid-search="">
+            <div class="input-group">
+                <input type="text" name="query" id="query" class="form-control" placeholder="Search&hellip;">
+                <span class="input-group-btn"><button type="submit" class="btn btn-default">Go</button></span>
+            </div>
+        </form>
+        <div id="search-results" data-orchid-search-results style="display: none;">
+            <b>Search Results</b>
+            <ul></ul>
+        </div>
+        <div id="search-progress" data-orchid-search-progress style="display: none;">
+            <div class="loader">Loading...</div>
+        </div>
+    </section>
+
+    <ul class="nav bs-docs-sidenav">
+        
+    </ul>
+
+    
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+
+    <a class="back-to-top" href="#top">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to top
+    </a>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div class="container bs-docs-container">
+    <footer class="bs-docs-footer" role="contentinfo">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="navigateClasses">
+                <ul class="pager">
+                    
+
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="icons">
+    
+    
+    
+    </div>
+    <br>
+    <p>
+    Documentation template based on the
+    <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc</a>
+    Jekyll theme by the <a href="https://getbootstrap.com">Bootstrap team</a>. Site created with
+    <a href="https://orchid.run">Orchid</a>.
+</p>
+
+<ul class="bs-docs-footer-links muted">
+    <li>Currently 3.6.0</li>
+</ul>
+
+
+</footer>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+
+<!-- start:inject scripts -->
+<script  src="https://copper-leaf.github.io/clog/BsDoc/db306931/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/BsDoc/db306931/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/BsDoc/db306931/ajax/libs/bootbox.js/4.3.0/bootbox.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/BsDoc/db306931/assets/js/bsdoc.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/prism.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/components/prism-java.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/components/prism-kotlin.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/components/prism-groovy.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/components/prism-swift.min.js"></script>
+<!-- end:inject scripts -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.2.0/trianglify.min.js"></script>
+
+<script>
+    $(function () {
+        window.colors = ['#2a623d', '#000000'];
+        
+    trianglify({"x_colors":["#000","#2a623d","#000"]});
+
+        buildNav();
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,3000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.21.0"/>
+<link rel="icon" href="https://copper-leaf.github.io/clog/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>Clog</title>
+
+
+<meta name="description" content="Zero-config Kotlin multiplatform logging utility">
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/BsDoc/db306931/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/BsDoc/db306931/assets/css/bsdoc.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/BsDoc/db306931/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/PrismJS/prism-themes/master/themes/prism-duotone-light.css"  />
+<link rel="stylesheet" type="text/css" href="https://copper-leaf.github.io/clog/assets/css/orchidSourceDoc.css"  />
+<!-- end:inject styles -->
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.21.0","baseUrl":"https://copper-leaf.github.io/clog","environment":"prod","version":"3.6.0"};
+</script>
+
+
+    <!-- start:inject meta-components [head] -->
+    
+
+        
+            
+        
+
+        
+            
+        
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+    <!-- start:inject meta-components [head] -->
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+
+
+
+
+
+<header class="navbar navbar-fixed-top bs-docs-nav">
+    <div class="container">
+        <div class="navbar-header" role="banner">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://copper-leaf.github.io/clog">Clog</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    
+                        <li><a href="https://copper-leaf.github.io/clog">Home</a></li>
+                    
+                
+                    
+                        <li><a href="https://copper-leaf.github.io/clog/releases">Releases</a></li>
+                    
+                
+                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Supported Platforms<span class="caret"></span></a>
+                            <ul class="dropdown-menu scrollable-menu">
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/android">Android</a></li>
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/common">Common</a></li>
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/js">JS</a></li>
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/jvm">JVM</a></li>
+                                
+                                    <li><a href="https://copper-leaf.github.io/clog/kotlindoc/ios">iOS</a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div id="top"></div>
+
+
+    <div class="bs-docs-masthead" id="jumbotron">
+        <div class="container">
+            <h1 class="home-title">Clog</h1>
+        </div>
+    </div>
+
+
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-9" role="main">
+        <nav aria-label="breadcrumb">
+    <ul class="breadcrumb">
+    
+    
+        <li class="breadcrumb-item"><a href="https://copper-leaf.github.io/clog/kotlindoc/common">Common</a></li>
+    
+    
+    
+        <li class="breadcrumb-item active" aria-current="page">Clog</li>
+    
+    
+    </ul>
+</nav>
+        
+
+        
+        
+            
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="Clog">
+
+
+  
+
+  
+    <div class="sourcedoc-section section-element" id="b50348112ce1c5ced609adeefe551455051d93c8">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>object <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>: Any</code>
+      </p>
+
+      
+        
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Holds a global instance of <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a> to process and handle logging message.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="495e77ccd0b69e121a29ac7fa12d9172f9a5488b">
+      
+      <h3 class="sourcedoc-section element-name">getInstance</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun getInstance(): <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a></code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Get the current global instance of the ClogProfile.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2a0efdaf365f07baeab91061d17d7bf9fa46d52f">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5441d826d731951869ce3f4a5d811e074da0b09b">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="b45b41393625c2d17842b5b5b4f940eadc17b9d3">
+      
+      <h3 class="sourcedoc-section element-name">setInstance</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun setInstance(profile: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a>)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Sets the current global instance of the ClogProfile.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="eea88810759fb86afc30853c373057c3cb679fad">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="2cb1123eca08bde85a41c02533cd781969bda709">
+        <td class="sourcedoc-section section-signature">
+          <code>profile: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="cfb218839a51645ba6dd9651e93c93518cfd1a46">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="d61cd85d4c4603699d1b71e9563f2fca4096d06c">
+      
+      <h3 class="sourcedoc-section element-name">v</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun v(message: String, vararg args: Any?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Log a message (formatted with the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a>) at the Clog.Priority.VERBOSE level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f86e7bd3ab7e6bb42cbb3beb9f87e7ce67115752">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3a8250bfb71a84769052d18ed54501af33ab46f1">
+        <td class="sourcedoc-section section-signature">
+          <code>message: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e0f7a1ba09a881189316745a5dff84b4f0dd9f4a">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg args: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ada5f180ddc887d9aa667a2e021c3283564d8e3c">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="dd8e7070d712a134eec94158d6403d23b6d71839">
+      
+      <h3 class="sourcedoc-section element-name">v</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun v(throwable: Throwable)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Logs a Throwable at the Clog.Priority.VERBOSE level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f6df643bbd596a39a4d98a9e539e8dd955659e3f">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6433466a057fbce862a4e6e90ecb495685ff23a9">
+        <td class="sourcedoc-section section-signature">
+          <code>throwable: Throwable</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2102ff18b01a28da88398a168ae4c06fc57a5636">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="69d6ec349ffd97b5a0ecbb6b78d8fb695a8039ef">
+      
+      <h3 class="sourcedoc-section element-name">d</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun d(message: String, vararg args: Any?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Log a message (formatted with the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a>) at the Clog.Priority.DEBUG level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="6730224d74e1d94a7107f1ff54de1de5b544015a">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3a8250bfb71a84769052d18ed54501af33ab46f1">
+        <td class="sourcedoc-section section-signature">
+          <code>message: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e0f7a1ba09a881189316745a5dff84b4f0dd9f4a">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg args: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="11c9ee4015228e0b9b722122c21451033d001562">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="aa87b4450672d5144c6a9055ab9245589155b0bf">
+      
+      <h3 class="sourcedoc-section element-name">d</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun d(throwable: Throwable)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Logs a Throwable at the Clog.Priority.DEBUG level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="82a5f6bfb5e63712ced00c333b73c284a56597c7">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6433466a057fbce862a4e6e90ecb495685ff23a9">
+        <td class="sourcedoc-section section-signature">
+          <code>throwable: Throwable</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="5774d92a60948e93d860ea1a7de3c4e36a31c7aa">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="2845ce339c112e41fb0fb7076ce4d9dc69ac5495">
+      
+      <h3 class="sourcedoc-section element-name">i</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun i(message: String, vararg args: Any?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Log a message (formatted with the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a>) at the Clog.Priority.INFO level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="8879852124f029db0d995752c7badf09fc7b2993">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3a8250bfb71a84769052d18ed54501af33ab46f1">
+        <td class="sourcedoc-section section-signature">
+          <code>message: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e0f7a1ba09a881189316745a5dff84b4f0dd9f4a">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg args: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a55fd71a87e1c54a91365c86ad119d8ce28905d7">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="6d67d00c7bc71970dbb1bb775a9ad156d8d00e3f">
+      
+      <h3 class="sourcedoc-section element-name">i</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun i(throwable: Throwable)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Logs a Throwable at the Clog.Priority.INFO level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ae0fcb22bad972237b24d96f0988d29cf551ec83">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6433466a057fbce862a4e6e90ecb495685ff23a9">
+        <td class="sourcedoc-section section-signature">
+          <code>throwable: Throwable</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a776f8b773e495a551a56e7f699b8bc74822d8bc">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="cb1ba78869137b63a42249747dd41d95837b6fe3">
+      
+      <h3 class="sourcedoc-section element-name">log</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun log(message: String, vararg args: Any?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Log a message (formatted with the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a>) at the Clog.Priority.DEFAULT level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d06c3878fcc0a1c0bbc2e996be215c1f65ecf642">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3a8250bfb71a84769052d18ed54501af33ab46f1">
+        <td class="sourcedoc-section section-signature">
+          <code>message: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e0f7a1ba09a881189316745a5dff84b4f0dd9f4a">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg args: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a8c660ff025730f90707d4368f54d56ef77438bd">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="0351d86f3bf044cdb3217b71190a1c0dda4352b9">
+      
+      <h3 class="sourcedoc-section element-name">log</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun log(throwable: Throwable)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Logs a Throwable at the Clog.Priority.DEFAULT level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2a858c502ae27bf4218477d5712ae02d3229d364">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6433466a057fbce862a4e6e90ecb495685ff23a9">
+        <td class="sourcedoc-section section-signature">
+          <code>throwable: Throwable</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a582e9bc07147b1d63d89b4f00023d1b53886e2a">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="909f1cf7b3657a43c8ee8ce7b9f4e1f2e116d8b4">
+      
+      <h3 class="sourcedoc-section element-name">w</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun w(message: String, vararg args: Any?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Log a message (formatted with the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a>) at the Clog.Priority.WARNING level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c3d008950dc6358f7a06e39d8e5b5ecded7b949a">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3a8250bfb71a84769052d18ed54501af33ab46f1">
+        <td class="sourcedoc-section section-signature">
+          <code>message: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e0f7a1ba09a881189316745a5dff84b4f0dd9f4a">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg args: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e6b55375390e6cee7092c4c256ae33942c679049">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="b04048e4349c1dcdb886748b1643ef8bc1e98e1d">
+      
+      <h3 class="sourcedoc-section element-name">w</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun w(throwable: Throwable)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Logs a Throwable at the Clog.Priority.WARNING level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="b714811121b47d3af5c3ba34a0c910df02c061ff">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6433466a057fbce862a4e6e90ecb495685ff23a9">
+        <td class="sourcedoc-section section-signature">
+          <code>throwable: Throwable</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="893cb0de9020936f5bf527775bc59affd3d57615">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="cc17a5cebfb0c3bd317f7cabd9594fc2531d1f5e">
+      
+      <h3 class="sourcedoc-section element-name">e</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun e(message: String, vararg args: Any?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Log a message (formatted with the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a>) at the Clog.Priority.ERROR level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="016e775cd6326133ce036663044a96473056ee22">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3a8250bfb71a84769052d18ed54501af33ab46f1">
+        <td class="sourcedoc-section section-signature">
+          <code>message: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e0f7a1ba09a881189316745a5dff84b4f0dd9f4a">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg args: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="4b9de6b9d97a06575360fbe3fd94ede37f734efe">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="4a8a80003b80f4521891a17f35db5d1203705288">
+      
+      <h3 class="sourcedoc-section element-name">e</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun e(throwable: Throwable)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Logs a Throwable at the Clog.Priority.ERROR level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="cf345b39381a935054932f08dfeb5b359178de82">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6433466a057fbce862a4e6e90ecb495685ff23a9">
+        <td class="sourcedoc-section section-signature">
+          <code>throwable: Throwable</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2688e1a634add719a902cd27350f114ebb850574">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="8ebd688f1a587ed0da70cb9bb58e12813f751f64">
+      
+      <h3 class="sourcedoc-section element-name">wtf</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun wtf(message: String, vararg args: Any?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Log a message (formatted with the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogmessageformatter">ClogMessageFormatter</a>) at the Clog.Priority.FATAL level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="b7894d3171f34464fbb876cab2575365fa554a14">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3a8250bfb71a84769052d18ed54501af33ab46f1">
+        <td class="sourcedoc-section section-signature">
+          <code>message: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e0f7a1ba09a881189316745a5dff84b4f0dd9f4a">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg args: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="58b76b1b98d4134bc5c604e31b6c55a56c19cb54">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="cb58e2872ae43925d618fe0ea3af2af5ffb87031">
+      
+      <h3 class="sourcedoc-section element-name">wtf</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun wtf(throwable: Throwable)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Logs a Throwable at the Clog.Priority.VERBOSE level.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="af6af0032de5dfd339ec47d38ddd59eb44ae20be">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6433466a057fbce862a4e6e90ecb495685ff23a9">
+        <td class="sourcedoc-section section-signature">
+          <code>throwable: Throwable</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="bf864f93fa06e49c83e44b0d24d2583d150f01b1">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="extensions">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Extensions</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="d9c7a22504d24a83acf166df66eb502c27a851c6">
+      
+      <h3 class="sourcedoc-section element-name">updateProfile</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.updateProfile(block: (<a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a>)-&gt;<a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a>)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Update the current <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a> instance, returning the new profile to set as the global profile.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="553823166c8696a9debc487173e4dfe2c64eae7c">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="079d20293c2a68ad1b91e0a4506ba350d4e3bf03">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6251fa6a74ec0d64ce96488c05ca13d30b95a699">
+        <td class="sourcedoc-section section-signature">
+          <code>block: (<a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a>)-&gt;<a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="7628198980380549aa1b12e643a6eeaa264d375d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="6a893c25a373cfdaa850f51c45e9cd289e6bb851">
+      
+      <h3 class="sourcedoc-section element-name">tag</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.tag(tag: String): <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a></code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Returns a copy of the global ClogProfile instance with a specified tag.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="675717d33943a101cd831c6fd0e532d0f8a3702a">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="bd6b8e8862ec365b8693260bf0b4d654b310d189">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="fa790c147cc15e27bc63feaa4785cc121ecc1690">
+        <td class="sourcedoc-section section-signature">
+          <code>tag: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="4e5fa54f0427ebad98ce1fe1c7de29a42540312d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5441d826d731951869ce3f4a5d811e074da0b09b">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="ea43709fdaba35fdc2824008bd08923e7e53b56e">
+      
+      <h3 class="sourcedoc-section element-name">maybeTag</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.maybeTag(tag: String?): <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a></code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>If tag is not null, return a copy of the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a> with that tag specified. Otherwise, directly return
+the global <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a>.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="0dfa1088b8a02e7725f8500f0f7c7f8ffd654f57">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="cf03bea254bcbc4b70d541f792d4cad79b909888">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="953377185e5560dba8cf40edd83cca1af509c3bf">
+        <td class="sourcedoc-section section-signature">
+          <code>tag: String?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="dc4bbb343323f92d18d0e98c2a6fe52cfc1c323b">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5441d826d731951869ce3f4a5d811e074da0b09b">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="fba0bf22d12eff43df5beaf3e4a3dbfbf5028255">
+      
+      <h3 class="sourcedoc-section element-name">configureLoggingInProduction</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.configureLoggingInProduction(isDebug: Boolean)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Configures Clog to only log messages in debug builds. If isDebug is true, then logs will be filtered normally,
+delegating to the previously-configured filter. If isDebug is false, then all logs will be ignored and no messages
+will be logged.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="6898e8ec8f9a23c28de84966c904318e9c272746">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9c7903d3e9c58bcf312e07300b3a443bb1c11720">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="04cb145526f2d04593461d1fec7b2cac67ec374a">
+        <td class="sourcedoc-section section-signature">
+          <code>isDebug: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e46449e0f2f3c4392c0bd71333a1f9b135fcccd5">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="5dec7e3233e1c4db599bfac6f69637857d16abf8">
+      
+      <h3 class="sourcedoc-section element-name">addLogger</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.addLogger(logger: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/cloglogger">ClogLogger</a>, filter: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogfilter">ClogFilter</a>?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Adds an additional <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/cloglogger">ClogLogger</a> as a logging target.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="dff3297aa937baa2c59e4eb159caa85b4cf7d5db">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="85067035ff14ae7fbbd3092b4571af132e2a1086">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="29756fde0992d88d1ef97681825f2167527e7153">
+        <td class="sourcedoc-section section-signature">
+          <code>logger: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/cloglogger">ClogLogger</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="75ce66ed134bbc60be00c076aa6125e1fe724649">
+        <td class="sourcedoc-section section-signature">
+          <code>filter: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogfilter">ClogFilter</a>?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="8caac9666c12b033ce599e4d4b99d0fc032e29b5">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="9785ef8c77712f60e11d905c3a2b1e199faf8e57">
+      
+      <h3 class="sourcedoc-section element-name">addTagToWhitelist</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.addTagToWhitelist(tag: String)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Declare a tag that should be added to the whitelist. Only messages with a tag in the whitelist will be logged.</p><p>Returns a copy of this <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogfilter">ClogFilter</a> with this change to be set in the <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a>.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a2d32dd30a643347ebd3fa9f434f7469254ae3ad">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="260a3056643a64a58412259f2c701096f0ca75db">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="fa790c147cc15e27bc63feaa4785cc121ecc1690">
+        <td class="sourcedoc-section section-signature">
+          <code>tag: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="dc729aae6a5b878f4c8e55e8cb4e18174133d984">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="2a268ce014e42e2e00542d4f8934333aa601c3f8">
+      
+      <h3 class="sourcedoc-section element-name">addTagToBlacklist</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.addTagToBlacklist(tag: String)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Declare a tag that should be added to the blacklist. Only messages with a tag not in the blacklist will be
+logged.</p><p>Returns a copy of this <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogfilter">ClogFilter</a> with this change to be set in the <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a>.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="8fa8ad91c921dff2f60c2974413f34ff6be6cd17">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ae90b9dc51f3a10092b8b3d4420497e45a199cf9">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="fa790c147cc15e27bc63feaa4785cc121ecc1690">
+        <td class="sourcedoc-section section-signature">
+          <code>tag: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e8ea7d45d0013b948398a5ebfe6f7c7be11b7f4e">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="ac00300a710b5d1908d617e45eb03b2ae8ae2f21">
+      
+      <h3 class="sourcedoc-section element-name">setMinPriority</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.setMinPriority(priority: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog/priority">Priority</a>?)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Set the minimum priority for log messages. Only messages with a level greater than or equal to priority will be
+logged.</p><p>Returns a copy of this <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/api/clogfilter">ClogFilter</a> with this change to be set in the <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clogprofile">ClogProfile</a>.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="fa041179414aeeee6d200cc07d62838c99770004">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="48ae4b211ae14406bc41f72d4f26f2af11c99b2c">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="8780aea54b354c2386f8636f7540694e7d017559">
+        <td class="sourcedoc-section section-signature">
+          <code>priority: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog/priority">Priority</a>?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="159dc4e26783cd22ad1b579062dbabed611a640a">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="39ff72f71a422321f5d80cef488907442f517c0c">
+      
+      <h3 class="sourcedoc-section element-name">format</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.format(message: String, vararg args: Any?): String</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Formats a message with positional args and any other contextual information.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c1ee9f8ba34a069ab9e1b8cc5369913089cddd0a">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="524c85f182a7067d4ce55b8a01f74ec367ddce41">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3a8250bfb71a84769052d18ed54501af33ab46f1">
+        <td class="sourcedoc-section section-signature">
+          <code>message: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e0f7a1ba09a881189316745a5dff84b4f0dd9f4a">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg args: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="081ea427f56ef0ea2e395f1cbb1dd88b2b69c2e8">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3df63b7acb0522da685dad5fe84b81fdd7b25264">
+        <td class="sourcedoc-section section-signature">
+          <code>String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="45ef2cd6c527c18c8712637bcf508f1118ca39a6">
+      
+      <h3 class="sourcedoc-section element-name">shouldLog</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a>.shouldLog(priority: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog/priority">Priority</a>, tag: String?): Boolean</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Given a priority and tag, determine if a message should be logged. It should conform to the whitelist,
+blacklist, and minimum priority, but additional logic may be present as well.</p><p>Returns true if the message should be logged, and false if it should be dropped.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="595d52bfb581f5980351b25e284d7090e45cbbbf">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd8df94acc6e06d894eabbb40573621b44e6a55f">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog">Clog</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="02e964c85138c51bbe19bed83190baa771ba72b0">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="667f1d95ee8e0eef96bedc11847434a033a21df8">
+        <td class="sourcedoc-section section-signature">
+          <code>priority: <a href="https://copper-leaf.github.io/clog/kotlindoc/common/clog/clog/priority">Priority</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="953377185e5560dba8cf40edd83cca1af509c3bf">
+        <td class="sourcedoc-section section-signature">
+          <code>tag: String?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a2bd3b2f9a09295a098051074d8b349b13915212">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b76ff4906f33c2dd97ddd929b9662ba8cac6174c">
+        <td class="sourcedoc-section section-signature">
+          <code>Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+        
+        </div>
+
+        <!-- Page navigation
+        =========================================== -->
+        <div class="col-md-3" role="complementary">
+        <div class="bs-docs-sidebar hidden-print" id="bs-docs-sidebar">
+    <section id="search" >
+        <form data-orchid-search="">
+            <div class="input-group">
+                <input type="text" name="query" id="query" class="form-control" placeholder="Search&hellip;">
+                <span class="input-group-btn"><button type="submit" class="btn btn-default">Go</button></span>
+            </div>
+        </form>
+        <div id="search-results" data-orchid-search-results style="display: none;">
+            <b>Search Results</b>
+            <ul></ul>
+        </div>
+        <div id="search-progress" data-orchid-search-progress style="display: none;">
+            <div class="loader">Loading...</div>
+        </div>
+    </section>
+
+    <ul class="nav bs-docs-sidenav">
+        
+    </ul>
+
+    
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+
+    <a class="back-to-top" href="#top">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to top
+    </a>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div class="container bs-docs-container">
+    <footer class="bs-docs-footer" role="contentinfo">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="navigateClasses">
+                <ul class="pager">
+                    
+
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="icons">
+    
+    
+    
+    </div>
+    <br>
+    <p>
+    Documentation template based on the
+    <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc</a>
+    Jekyll theme by the <a href="https://getbootstrap.com">Bootstrap team</a>. Site created with
+    <a href="https://orchid.run">Orchid</a>.
+</p>
+
+<ul class="bs-docs-footer-links muted">
+    <li>Currently 3.6.0</li>
+</ul>
+
+
+</footer>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+
+<!-- start:inject scripts -->
+<script  src="https://copper-leaf.github.io/clog/BsDoc/db306931/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/BsDoc/db306931/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/BsDoc/db306931/ajax/libs/bootbox.js/4.3.0/bootbox.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/BsDoc/db306931/assets/js/bsdoc.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/prism.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/components/prism-java.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/components/prism-kotlin.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/components/prism-groovy.min.js"></script>
+<script  src="https://copper-leaf.github.io/clog/ajax/libs/prism/1.17.1/components/prism-swift.min.js"></script>
+<!-- end:inject scripts -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.2.0/trianglify.min.js"></script>
+
+<script>
+    $(function () {
+        window.colors = ['#2a623d', '#000000'];
+        
+    trianglify({"x_colors":["#000","#2a623d","#000"]});
+
+        buildNav();
+    });
+</script>
+</body>
+</html>
